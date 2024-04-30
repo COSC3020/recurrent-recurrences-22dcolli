@@ -23,11 +23,13 @@ $=T(\frac{n}{13^{i}}) + 5(i)$
 
 $i$ will equal $log_{13}(n)$ to reach base case which gives us:
 
-$T(\frac{n}{13^{log_{13}(n}}) + 5(log_{13}(n)$
+$T(\frac{n}{13^{log_{13}(n}}) + 5(log_{13}(n))$
 
-$=T(1) + 5(log_{13}(n)$
+$=T(1) + 5(log_{13}(n))$
 
-$=1 + 5(log_{13}(n)$
+$=1 + 5(log_{13}(n))$
+
+Based on this we assume the bound is $\Theta(log(n))$ because we ignore the constants and focus on the most impactful growth rate
 
 
 2.
