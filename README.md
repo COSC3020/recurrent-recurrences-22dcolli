@@ -3,6 +3,8 @@
 
 Give big $\Theta$ bounds for the following recurrence relations.
 
+Note:I chose to use substitution on all three problems.
+
 1.
 $$ T(n) =
     \begin{cases}
@@ -11,6 +13,9 @@ $$ T(n) =
     \end{cases}
 $$
 
+$T(n) = T(\frac{n}{13}) + 5$
+
+$T(\frac{n}{13}) = (T(\frac{n}{13^{2}}) + 5) + 5$
 2.
 $$ T(n) =
     \begin{cases}
