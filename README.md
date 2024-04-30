@@ -17,6 +17,10 @@ $T(n) = T(\frac{n}{13}) + 5$
 
 $T(\frac{n}{13}) = (T(\frac{n}{13^{2}}) + 5) + 5$
 
+$...$(went on until pattern became evident)
+
+
+
 2.
 $$ T(n) =
     \begin{cases}
