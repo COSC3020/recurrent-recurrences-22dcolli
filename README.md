@@ -19,7 +19,12 @@ $T(\frac{n}{13}) = (T(\frac{n}{13^{2}}) + 5) + 5$
 
 $...$ (went on until pattern became evident)
 
-$T(\frac{n}{13^{i}}) + 5^{i}$
+$T(\frac{n}{13^{i}}) + 5(i)$
+
+$i$ will equal $log_{13}(n)$ to reach base case which gives us:
+
+$T(\frac{n}{13^{log_{13}(n}}) + 5(log_{13}(n)$
+
 
 2.
 $$ T(n) =
