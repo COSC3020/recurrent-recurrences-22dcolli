@@ -3,7 +3,7 @@
 
 Give big $\Theta$ bounds for the following recurrence relations.
 
-Note:I chose to use substitution on all three problems.
+Note: I chose to use substitution on all three problems.
 
 1.
 $$ T(n) =
@@ -15,15 +15,19 @@ $$
 
 $T(n) = T(\frac{n}{13}) + 5$
 
-$T(\frac{n}{13}) = (T(\frac{n}{13^{2}}) + 5) + 5$
+$=T(\frac{n}{13}) = (T(\frac{n}{13^{2}}) + 5) + 5$
 
 $...$ (went on until pattern became evident)
 
-$T(\frac{n}{13^{i}}) + 5(i)$
+$=T(\frac{n}{13^{i}}) + 5(i)$
 
 $i$ will equal $log_{13}(n)$ to reach base case which gives us:
 
 $T(\frac{n}{13^{log_{13}(n}}) + 5(log_{13}(n)$
+
+$=T(1) + 5(log_{13}(n)$
+
+$=1 + 5(log_{13}(n)$
 
 
 2.
