@@ -85,3 +85,11 @@ Again we need $i$ to be $log_{13}(n)$ giving us:
 $=13^{log_{13}(n)}T(\frac{n}{13^{log_{13}(n)}}) + (2n)(log_{13}(n))$
 
 $=nT(1) + (2n)(log_{13}(n))$
+
+$=(1*n) + (2n)(log_{13}(n))$
+
+$=n + (2n)(log_{13}(n))$
+
+$=n + 2nlog_{13}(n)$
+
+Same as before, ignoring constants and the lower order terms we are left with the bound $\Theta(nlog(n))$
