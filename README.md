@@ -92,4 +92,4 @@ $=n + (2n)(log_{13}(n))$
 
 $=n + 2nlog_{13}(n)$
 
-Same as before, ignoring constants and the lower order terms we are left with the bound $\Theta(nlog(n))$
+Same as before, ignoring constants and the lower order terms we are left with $nlog(n)$ which is the bound $\Theta(nlog(n))$
