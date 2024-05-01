@@ -52,7 +52,7 @@ $=13^{i}T(\frac{n}{13^{i}})+ 5*\sum\limits _{j=0}^{i}13^j$
 
 Now to reach base case I believe $i$ needs to be  $log_{13}(n)$ again here leaving:
 
-$=13^{log_{13}(n)}T(\frac{n}{13^{log_{13}(n)}})+ 5*\sum\limits _{j=0}^{log_{13}(n)}13^j$
+$=13^{i}T(\frac{n}{13^{i}})+ 5*\sum\limits _{j=0}^{i}13^j$
 
 3.
 $$ T(n) =
