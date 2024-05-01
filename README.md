@@ -42,13 +42,15 @@ $$
 
 $T(n) = 13T(\frac{n}{13}) + 5$
 
-$=T(\frac{n}{13}) = (13T(\frac{n}{13^{2}}) + 5) + 5$
+$=T(\frac{n}{13}) = 13(13T(\frac{n}{13^{2}}) + 5) + 5$
 
-$...$ (went on until pattern became evident)
+$=13^{2}T(\frac{n}{13^{2}}) + 70
+
+$...$
 
 $=T(\frac{n}{13^{i}}) + 5(i)$
 
-2.
+3.
 $$ T(n) =
     \begin{cases}
         1 & n \leq 1\\
