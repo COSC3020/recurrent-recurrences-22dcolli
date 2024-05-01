@@ -54,6 +54,10 @@ Now to reach base case I believe $i$ needs to be  $log_{13}(n)$ again here leavi
 
 $=13^{log_{13}(n)}T(\frac{n}{13^{log_{13}(n)}})+ 5*\sum\limits _{j=0}^{\log{ _{13}}{(n)}} 13^j$
 
+$=nT(1) + 5*\sum\limits _{j=0}^{\log{ _{13}}{(n)}} 13^j$
+
+$=1*n + 5*(13^{\log{ _{13}}{n}} + \sum\limits _{j=0}^{\log{ _{13}}{n} - 1} 13^j)$
+
 3.
 $$ T(n) =
     \begin{cases}
