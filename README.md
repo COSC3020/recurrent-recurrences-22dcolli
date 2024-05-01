@@ -83,3 +83,5 @@ $=13^iT(\frac{n}{13^{i}}) + (2n)i$
 Again we need $i$ to be $log_{13}(n)$ giving us:
 
 $=13^{log_{13}(n)}T(\frac{n}{13^{log_{13}(n)}}) + (2n)(log_{13}(n))$
+
+$=nT(1) + (2n)(log_{13}(n))$
