@@ -60,7 +60,7 @@ $= (1*n) + 5 * (13^{\log{ _{13}}{n}} + \sum\limits _{j=0}^{\log{ _{13}}{(n-1)}} 
 
 $= n + 5 * (n + \sum\limits _{j=0}^{\log{ _{13}}{(n-1)}} 13^j)$
 
-I believe that based off the final part $= n + 5 * (n + \sum\limits _{j=0}^{\log{ _{13}}{(n-1)}} 13^j)$ the bound would be $\Theta(n)$
+I believe that based off the final part $ n + 5 * (n + \sum\limits _{j=0}^{\log{ _{13}}{(n-1)}} 13^j)$ the bound would be $\Theta(n)$
 
 3.
 $$ T(n) =
