@@ -3,7 +3,7 @@
 
 Give big $\Theta$ bounds for the following recurrence relations.
 
-Note: I chose to use substitution on all three problems.
+Note: I chose to use substitution on all three problems and I referenced the repositories of Ishita Patel, Keifer Buss, Cian Melker, and Caden McFate for guidance in both the code and analysis.
 
 1.
 $$ T(n) =
